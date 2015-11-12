@@ -5,6 +5,7 @@ Also includes C code used to make two necessary binary files: fisher_test_right 
 Compiling commands: 
 
 gcc -std=c99 -O2 normal.c normal_pval_left.c -o normal_pval_left -lm
+
 gcc -std=c99 -O2 fisher.c   fisher_test_right.c  -o fisher_test_right  -lm
 
 Perl requirements: CGI, File::Temp, HTML::Table
