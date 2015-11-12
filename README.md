@@ -13,7 +13,10 @@ gcc -std=c99 -O2 fisher.c   fisher_test_right.c  -o fisher_test_right  -lm
 3. Necessary data. The datais  of substantial size and thus are not deposited here (but are available upon request). 
 
 Includes:
+
 	- images for 
+	
 	- databases in GSEXXX_GPLYYY<tab>Module#<tab>Gene_entrez_id format (1 line per gene). 
+	
 	- 3-column annotation for each GPL that's on the list - tab-separated probe ID, gene symbol, and Entrez ID. 
 
