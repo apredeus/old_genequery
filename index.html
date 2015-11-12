@@ -1,0 +1,19 @@
+<html><body><h1>Welcome to our GeneQuery Server!</h1>
+<p>Please provide <b>a list of genes that are up- or down-regulated in your sample</b>, </p>
+<p>and we will return a <b>list of experiments</b> that have shown similar gene coexpression patterns.</p>
+<p><h3><font color="FF0000">Acceptable formats include: Entrez IDs, gene symbols, and RefSeq IDs.</font></h3></p>
+<br />
+<img src="/genequery/webimages/dna.jpg" alt="DNA"> 
+<br /><br />
+<p>Please specify the species:</p>
+<form action="/genequery/cgi-bin/query.cgi" method="post">
+<input type="radio" name="species" value="hs">Homo Sapiens<br />
+<input type="radio" name="species" value="mm">Mus Musculus<br />
+<p>Now choose which database you want to use:</p>
+<input type="radio" name="db" value="2k">"2K" database: experiments including 12-100 samples, spanning years 2009 to 07.2013 <br />
+<input type="radio" name="db" value="4k">"4K" database: experiments including 8- 100 samples, spanning years 2000 to 11.2013 <br /><br />
+Now paste the gene list:<br /><br />
+<textarea name="genes" rows="20" cols="30"> </textarea><br /><br />
+<input type="submit" value="SUBMIT QUERY">
+</form> 
+</body></html>
