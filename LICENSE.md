@@ -1,4 +1,4 @@
-Copyright (c) 2013 Alexander V. Predeus
+Copyright (c) 2013 Alexander V. Predeus 
 
 Academic Free License ("AFL") v. 3.0
 
